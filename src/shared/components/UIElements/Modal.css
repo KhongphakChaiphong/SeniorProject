@@ -1,0 +1,61 @@
+.p-modal {
+  z-index: 100;
+  position: fixed;
+  top: 22vh;
+  left: 10%;
+  width: 80%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.p-modal__header {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: #006e25;
+  color: white;
+}
+
+.p-modal__header h2 {
+  margin: 0.5rem;
+}
+
+.p-modal__content {
+  padding: 1rem 0.5rem;
+}
+
+.p-modal__footer {
+  padding: 1rem 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .p-modal {
+    left: calc(50% - 15rem);
+    width: 30rem;
+  }
+}
+
+.p-modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.p-modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.p-modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.p-modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}

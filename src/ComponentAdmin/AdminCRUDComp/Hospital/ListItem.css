@@ -1,0 +1,55 @@
+.list{
+    border-bottom-left-radius:20px;
+    border-top-right-radius: 20px;
+    padding:24px;
+    margin:12px;
+    background:white;
+}
+
+.listDefault{
+    box-shadow: 2px 2px 2px black;
+}
+
+.titleContainer, .buttonContainer{
+    text-align: center;
+}
+.imageContainer img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:100%;
+    height:256px;
+}
+
+.list .listText{
+    margin:auto;
+    font-size: 24px;
+}
+
+.list .listText .displayAnchor{
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(73, 73, 73);
+}
+
+.list .listIcon img{
+    width:72px;
+    height:72px;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius:50%;
+}
+
+.listInMainmenu{
+    margin:12px;
+    font-size: 20px;
+}
+
+.titleContainer{
+    margin-top:15px;
+    padding:12px;
+    background-color:#b4c889;
+    color:#434041
+}
+
+.listMainMenu{
+    background-color: #fff;
+}

@@ -1,0 +1,10 @@
+.jumbotron{
+    background-color:white;
+    padding:2rem 2rem 4rem 2rem;
+    margin:24px 169px 96px 169px;
+    box-shadow:2px 2px 2px rgb(102, 99, 99) !important;
+}
+
+.jumbotron button{
+    float:right;
+}
